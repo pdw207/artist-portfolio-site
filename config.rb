@@ -47,6 +47,8 @@
 #   end
 # end
 
+set :haml, { :ugly => true, :format => :html5 }
+
 set :css_dir, 'css'
 
 set :js_dir, 'js'

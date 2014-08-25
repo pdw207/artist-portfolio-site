@@ -11,4 +11,24 @@ if (!(window.console && console.log)) {
     }());
 }
 
-// Place any jQuery/helper plugins in here.
+
+// Create Isotope Container for Artwork
+window.onload = function() {
+  $('#portfolio').isotope({
+    itemSelector: '.art',
+    layoutMode: 'fitRows',
+  });
+};
+
+// Create filter for artwork via isotope.
+var $container = $('#portfolio');
+$container.isotope({});
+
+$('a.portfolio-filters').click(function(){
+  var selector = "." + this.text.replace(" ", "-");
+  if ( selector === ".all" ){ selector = ".art" };
+  $container.isotope({ filter: selector });
+  return false;
+});
+
+

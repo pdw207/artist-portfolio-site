@@ -1,0 +1,12 @@
+#portfolio, .art{
+  padding: 5px;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duraction: 0.8s;
+  transition-duration: 0.8s;
+}
+
+#portfolio {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}

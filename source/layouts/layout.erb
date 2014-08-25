@@ -16,7 +16,35 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
-
+      <div class="fixed navigation">
+        <nav class="top-bar main" role="navigation">
+          <ul class="title-area">
+            <li class="name"><a href="/"><img src=<%= current_page.data.logo || "../img/MCC_logo_Blue_Orange.png" %> id="logo"></a></li>
+            <li class="toggle-topbar">
+              <a href="#">
+                <span>Menu</span>
+              </a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right" id="main-menu-links">
+              <li>
+                <%= link_to 'about', '/about.html'   %>
+              </li>
+              <li>
+                <%= link_to 'work', '/work.html'   %>
+              </li>
+              <li>
+                <%= link_to 'blog', '/blog.html' %>
+              </li>
+              <li>
+                <%= link_to 'contact', '/contact.html' %>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+      <div class="page-content">
         <%= yield %>
 
         <%= javascript_include_tag "base" %>

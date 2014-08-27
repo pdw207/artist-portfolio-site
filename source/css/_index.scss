@@ -25,6 +25,12 @@ body > section {
   padding: 0 15px;
 }
 
+.follow-link {
+  @extend .small-2;
+  float: left;
+  padding: 0 10px;
+}
+
 span.spacer-green {
   @include color-seperator($green);
 }

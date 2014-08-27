@@ -28,9 +28,13 @@ nav.top-bar.main {
 
 h2,h1 {
   text-align: center;
-  margin: $header-spacing 0;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+h2 {
+  letter-spacing: 5px;
+  font-size: 3em;
 }
 
 h3 {
@@ -53,7 +57,7 @@ h3 {
   font-family: "Brandon", "Helvetica Neue", sans-serif;
   line-height: $top-bar-height;
   text-transform: uppercase;
-  font-size: 1.32em;
+  font-size: 1em;
   padding: 0 2em;
 }
 //Footer

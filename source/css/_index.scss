@@ -1,6 +1,6 @@
 h2 {
   text-align: center;
-  margin: $header-spacing 0;
+  margin-bottom: $header-spacing;
   text-transform: uppercase;
 }
 
@@ -10,6 +10,7 @@ body > section {
 
 #splash {
   width: 100%;
+  padding-bottom: $header-spacing;
 }
 
 #headline {
@@ -31,12 +32,19 @@ body > section {
   padding: 0 10px;
 }
 
+//Spacers
 span.spacer-green {
   @include color-seperator($green);
 }
+
 span.spacer-yellow {
   @include color-seperator($yellow);
 }
+
 span.spacer-red {
   @include color-seperator($red);
+}
+
+span.spacer-blue {
+  @include color-seperator($blue);
 }

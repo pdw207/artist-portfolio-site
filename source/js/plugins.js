@@ -24,7 +24,7 @@ window.onload = function() {
 var $container = $('#portfolio');
 $container.isotope({});
 
-$('a.portfolio-filters').click(function(){
+$('a.portfolio-filter').click(function(){
   var selector = "." + this.text.replace(" ", "-");
   if ( selector === ".all" ){ selector = ".art" };
   $container.isotope({ filter: selector });

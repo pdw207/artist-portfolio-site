@@ -1,9 +1,17 @@
-%h1 what
-%a.button.portfolio-filters all 
-%a.button.portfolio-filters video
-%a.button.portfolio-filters graphic design 
-%a.button.portfolio-filters video
-#portfolio
+---
+title: My Porffolio
+logo: "../img/MCC_logo_Orange_Blue.png"
+---
+
+%h1 Work
+
+%section.filters
+  %a.portfolio-filter all
+  %a.portfolio-filter photography
+  %a.portfolio-filter graphic design
+  %a.portfolio-filter video
+
+%section#portfolio
   %img.art.photography(src="http://placekitten.com/g/400/400")
   %img.art.photography(src="http://placekitten.com/g/200/200")
   %img.art.graphic-design(src="http://placekitten.com/g/400/400")

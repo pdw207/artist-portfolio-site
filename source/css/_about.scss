@@ -1,0 +1,16 @@
+.narrative {
+  img {
+    width: 40%;
+    float: left;
+    padding-right: 40px;
+  }
+  p {
+    font-size: 1.4em;
+  }
+}
+.small-full-page{
+  display: block;
+  @extend .small-centered;
+  @extend .column;
+  @extend .small-11;
+}

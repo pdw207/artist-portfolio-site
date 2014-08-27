@@ -1,0 +1,84 @@
+
+//Typography
+
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Brandon";
+  font-weight: bold;
+  src: url("../fonts/Brandon_bld.otf") format("opentype");
+}
+
+h1,h2,h3,h4,h5,body,p,a,{
+  font-family: "Brandon", "Helvetica Neue", sans-serif;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+
+//Navigation bar
+nav.top-bar.main {
+  height: $top-bar-height;
+}
+
+h2,h1 {
+  text-align: center;
+  margin: $header-spacing 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  margin: $header-spacing 0;
+  font-weight: bold;
+}
+
+#logo {
+  position: relative;
+  top: $top-bar-height / 2 ;
+  left: 4em;
+  max-width: none;
+  height: $logo-size;
+  margin-top: $logo-size / -2;
+  z-index: 1;
+}
+
+
+#main-menu-links a {
+  font-family: "Brandon", "Helvetica Neue", sans-serif;
+  line-height: $top-bar-height;
+  text-transform: uppercase;
+  font-size: 1.32em;
+  padding: 0 2em;
+}
+//Footer
+
+footer {
+  height: 75px; 
+  width: 100%;
+  background-color: black;
+  text-transform: uppercase;
+  p {
+    width: 220px;
+    margin: auto;
+    color: white;
+    line-height: 75px;
+  }
+  copyright::before {
+    content: "\00A9";
+  }
+}
+
+// Global
+section {
+  @extend .row;
+}
+
+.page-content {
+  margin: $top-bar-height 0;
+}

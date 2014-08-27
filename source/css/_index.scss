@@ -1,0 +1,36 @@
+h2 {
+  text-align: center;
+  margin: $header-spacing 0;
+  text-transform: uppercase;
+}
+
+body > section {
+  padding-top: $section-spacing;
+}
+
+#splash {
+  width: 100%;
+}
+
+#headline {
+  max-width: 900px;
+  p {
+    font-size: 1.5em;
+  }
+}
+
+.project {
+  @extend .small-4;
+  float: left;
+  padding: 0 15px;
+}
+
+span.spacer-green {
+  @include color-seperator($green);
+}
+span.spacer-yellow {
+  @include color-seperator($yellow);
+}
+span.spacer-red {
+  @include color-seperator($red);
+}

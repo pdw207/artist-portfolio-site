@@ -1,21 +1,29 @@
 ---
-title: "Marisa Catalina Casey - Home"
+logo: "../img/MCC_logo_Yellow_Orange.png"
 ---
 
-%nav.top-bar{"data-topbar" => "", :role => "navigation"}
-  %ul.title-area
-    %li.name
- 
-    %li.toggle-topbar
-      %a{:href => "#"}
-        %span Menu
-  %section.top-bar-section
-    %ul.right
-      %li
-        = link_to 'about', '/about'  
-      %li
-        = link_to 'work', '/work'  
-      %li
-        = link_to 'blog', '/blog'
-      %li
-        = link_to 'contact', '/contact'
+%img#splash(src="../img/banner.jpg")
+
+%section#headline
+  .small-12.large-12
+    %h2 I am a Storyteller
+    %p I tell stories using images and words, capturing moments that are personal and memorable. My stories document everyday life, celebrate events, raise funds for mission-based organizations, and market small businesses.
+
+%span.spacer-green
+
+%section#projects
+  %h2 Projects 
+  %img.project(src="../img/pants.jpg")
+  %img.project(src="../img/pants.jpg")
+  %img.project(src="../img/pants.jpg")
+
+%span.spacer-yellow
+
+%section#blog
+  %h2 Blog
+  %img(src="../img/BlogBannerAugust14-01.jpg")
+
+%span.spacer-red
+
+%section#contact
+  %h2 Contact

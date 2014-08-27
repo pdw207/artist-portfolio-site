@@ -9,7 +9,7 @@
         <title><%= current_page.data.title || "Marisa Catalina Casey" %></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <%= stylesheet_link_tag "base" %>
+        <%= stylesheet_link_tag "app" %>
         <%= javascript_include_tag "modernizr" %>
     </head>
     <body>
@@ -38,7 +38,7 @@
                 <%= link_to 'blog', '/blog.html' %>
               </li>
               <li>
-                <%= link_to 'contact', '/contact.html' %>
+                <%= link_to 'contact', '/#contact' %>
               </li>
             </ul>
           </section>
@@ -46,7 +46,10 @@
       </div>
       <div class="page-content">
         <%= yield %>
-
+      </div>
+      <footer>
+        <p> Made by Palmar <copyright>2014</copyright></p>
+      </footer>
         <%= javascript_include_tag "base" %>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

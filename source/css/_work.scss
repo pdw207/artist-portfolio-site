@@ -1,12 +1,133 @@
+.blog-wrapper {
+  height: 100%;
+  background: green;
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+.blog-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+//Filters
+
+.filters {
+  @extend .small-12, .medium-10, .medium-centered, .column;
+  margin-bottom: 50px;
+  float: none;
+  display: none;
+}
+
+.filter-wrapper {
+  display: inline-block;
+}
+
+.portfolio-filter {
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 80px;
+}
+
+// triangles
+
+.yellow-arrow {
+  @include arrow($yellow);
+}
+
+.green-arrow {
+  @include arrow($green);
+}
+
+.red-arrow {
+  @include arrow($red);
+}
+
+.blue-arrow {
+  @include arrow($blue);
+}
+
+.orange-arrow {
+  @include arrow($orange);
+}
+
+//Transitions for Isotope
+
 #portfolio, .art{
   padding: 5px;
+  float: none;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duraction: 0.8s;
   transition-duration: 0.8s;
 }
 
 #portfolio {
+  @extend .small-12, .medium-10, .medium-centered, .column;
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
   transition-property: height, width;
+}
+
+img.photography, img.video, img.graphic-design, .vimeo, .youtube{
+  width:100%;
+  left:-5px !important;
+}
+
+#portfolio iframe {
+  width: 100%;
+  padding: 0;
+}
+
+#backdrop {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.9);
+  width:100%;
+  height: 100%;
+}
+
+.open {
+  visibility: visible;
+  opacity:1;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.closed {
+  visibility:hidden;
+  opacity:0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.orbit-container {
+  max-width: 800px;
+  height: 532px;
+  position:absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(500px, 0);
+  -ms-transform: translate(500px, 0);
+  transform: translate3d(-50%, -50%,0);
+  top:50%;
+  left: 50%;
+}
+
+.orbit-slides-container{
+  top: 25%;
 }

@@ -1,29 +1,50 @@
 ---
-title: My Porffolio
+title: Work
 logo: "../img/MCC_logo_Orange_Blue.png"
 ---
-
-%h1 Work
+%section.portfolio-page
+  %h1.page-title Work
 
 %section.filters
-  %a.portfolio-filter all
-  %a.portfolio-filter photography
-  %a.portfolio-filter graphic design
-  %a.portfolio-filter video
+  .filter-wrapper
+    %span.green-arrow
+    %a.portfolio-filter photography
+  .filter-wrapper
+    %span.orange-arrow
+    %a.portfolio-filter graphic design
+  .filter-wrapper
+    %span.yellow-arrow
+    %a.portfolio-filter video
+  .filter-wrapper
+    %span.blue-arrow
+    %a.portfolio-filter all
 
 %section#portfolio
-  %img.art.photography(src="http://placekitten.com/g/400/400")
-  %img.art.photography(src="http://placekitten.com/g/200/200")
-  %img.art.graphic-design(src="http://placekitten.com/g/400/400")
-  %img.art.graphic-design(src="http://placekitten.com/g/400/400")
-  %img.art.photography(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.photography(src="http://placekitten.com/g/400/400")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.video(src="http://placekitten.com/g/200/200")
-  %img.art.photography(src="http://placekitten.com/g/400/400")
+  = image_tag("VAC_Calendar_Cover.gif", class: "art photography graphic-design")
+  = image_tag("Charlie_VT_Meadow.gif", class: "art photography", data: {collection: ""})
+  = image_tag("Galapagos_Crab.gif", class: "art photography", data: { collection: "Ecuador_Tortoise_SM.jpg,Galapagos_Iguana_SM.jpg,Galapagos_SeaLion_SM.jpg,Galapagos_RedEyeBird_SM.jpg,Galapagos_BlueFootBooby_SM.jpg,Galapagos_Crab_SM.jpg"})
+  = image_tag("Bed_Detail_SQ.gif", class: "art photography")
+  = image_tag("Pompidou_Exterior.gif", class: "art photography")
+  = image_tag("Mujeres_Cambia_Bracelets_SQ.gif", class: "art photography graphic-design")
+  = image_tag("Burning_Man_Balloons.jpg", class: "art photography")
+  .art.video.youtube
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "234", :src => "//www.youtube.com/embed/sCat5LDSJmU", :width => "384"}
+  .art.video.vimeo
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "234", :mozallowfullscreen => "", :src => "//player.vimeo.com/video/84488843", :webkitallowfullscreen => "", :width => "281"}
+  = image_tag("Peace_Corps_Infographic.gif", class: "art graphic-design")
+  = image_tag("Kinua_Logo.gif", class: "art graphic-design")
+  = image_tag("Mujeres_Cambia_Brochure.gif", class: "art photography graphic-design")
+  = image_tag("All_Newton_Music_Portrait.gif", class: "art photography")
+  = image_tag("Ecuador_Game_Cards.gif", class: "art graphic-design")
+  = image_tag("Ecuador_Color_Collage.gif", class: "art photography graphic-design")
+  .art.video.vimeo
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "234", :mozallowfullscreen => "", :src => "//player.vimeo.com/video/69414940?title=0&byline=0&portrait=0&color=ff9933", :webkitallowfullscreen => "", :width => "281"}
+  = image_tag("Baby_Announcement.gif", class: "art graphic-design")
+  = image_tag("Peace_Corps_Shirt_SQ.gif", class: "art graphic-design")
+  = image_tag("Baby_Shower_Invite.gif", class: "art graphic-design")
+  = image_tag("CAD_Sticker.gif", class: "art graphic-design")
+  = image_tag("Ecuador_Truck.gif", class: "art photography")
+  = image_tag("TNC_Slide.gif", class: "art graphic-design")
+  = image_tag("No_Botar_Sticker.gif", class: "art graphic-design")
+#backdrop.closed
+  %ul.orbit{"data-orbit" => ""}

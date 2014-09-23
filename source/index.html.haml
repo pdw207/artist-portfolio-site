@@ -41,3 +41,22 @@ logo: "../img/MCC_logo_Yellow_Orange.png"
 %span#contact-offset.spacer-blue
 
 %section#contact
+  %h2.sub-heading Contact
+  %form.small-12.medium-8.medium-centered.columns{"accept-charset" => "UTF-8", :action => "https://marisacatalina.wufoo.com/forms/z16s63fk123iatw/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => ""}
+    .row
+      .left-col
+        %label.visuallyhidden{:for => "Field17"} First Name
+        %input#first-name{:name => "Field17", :onkeyup => "", :tabindex => "1", :type => "text", :value => "", :placeholder=>"First Name"}/
+        %label.visuallyhidden{:for => "Field18"} Last Name
+        %input#last-name{:name => "Field18", :onkeyup => "", :tabindex => "2", :type => "text", :value => "", :placeholder=>"Last Name"}/
+        %label.visuallyhidden{:for => "Field15"} Email
+        %input#email{:name => "Field15", :spellcheck => "false", :tabindex => "3", :type => "email", :value => "", :placeholder=>"Email Address"}/
+      .right-col
+        %label.visuallyhidden{:for => "Field16"} Message
+        %textarea.message{:name => "Field16", :onkeyup => "", :rows => "10", :spellcheck => "true", :tabindex => "4", :placeholder=>"Message"}
+    .row
+      %button.submit{:name => "saveForm", :type => "submit", :value => "Submit"} Submit
+      .hide
+        %label{:for => "comment"}
+        %textarea#comment{:cols => "1", :name => "comment", :rows => "1"}
+        %input#idstamp{:name => "idstamp", :type => "hidden", :value => "cfMVEiVqzklZ+otodJqJhyAg7zfCIA3E4RXYOZRqHAA="}/

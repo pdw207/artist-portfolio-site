@@ -1,0 +1,40 @@
+.lead-title {
+  padding: 1em 0 0 0;
+  margin: 0;
+  line-height: 1em;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.portfolio-story {
+  @extend .small-10, .small-centered, .medium-8;
+  margin: auto;
+  padding: $section-spacing-mobile 0;
+  text-align: justify;
+}
+
+.portfolio-sample  {
+  @extend .small-10, .small-centered;
+  display: block;
+  margin: auto;
+  img {
+    width: 100%;
+  }
+}
+
+//set porportional width without javascript
+.proportional-scaling {
+  padding-bottom: 50%;
+  height: 0;
+  //firefox bug fix on zero height element
+  @-moz-document url-prefix() {
+    height: 100%;
+    padding-bottom: 0;
+  }
+  .scaled-object {
+    width: 100%;
+    height: 100%;
+  }
+}

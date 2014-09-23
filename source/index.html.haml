@@ -2,36 +2,42 @@
 logo: "../img/MCC_logo_Yellow_Orange.png"
 ---
 
-%img#splash(src="../img/banner.jpg")
+%img#splash.hide-for-small-down(src="../img/banner.jpg")
+%img#splash.hide-for-medium-up(src="../img/bannerSmall.jpg")
 
 %section#headline
-  .small-12.large-12
-    %h2 I am a Storyteller
+  .headline-copy
+    %h2.page-title I am a Storyteller
     %p I tell stories using images and words, capturing moments that are personal and memorable. My stories document everyday life, celebrate events, raise funds for mission-based organizations, and market small businesses.
 
 %span.spacer-green
 
 %section#projects
-  %h2 Projects 
-  %img.project(src="../img/pants.jpg")
-  %img.project(src="../img/pants.jpg")
-  %img.project(src="../img/pants.jpg")
+  %h2.sub-heading Projects
+  .project-group
+    %a.project.project-mujeres-cambia(href='/mujeres-cambia.html')
+    %a.project.project-why-art-matters(href='/why-art-matters.html')
+    %a.project.project-peace-corps(href='/peace-corps.html')
 
 %span.spacer-yellow
 
 %section#blog
-  %h2 Blog
-  %img(src="../img/BlogBannerAugust14-01.jpg")
+  %h2.sub-heading Blog
+  %a.blog-link(href="/blog.html")
+    %img(src="../img/BlogBannerAugust19-01.jpg" alt="August 19th Post")
 
 %span.spacer-red
+
 %section#follow
-  %h2 Follow
-  %img.follow-link(src="../img/pinterest.png")
-  %img.follow-link(src="../img/vimeo.png")
-  %img.follow-link(src="../img/pinterest.png")
-  %img.follow-link(src="../img/pinterest.png")
-  %img.follow-link(src="../img/behance.png")
-  %img.follow-link(src="../img/wordpress.png")
+  %h2.sub-heading Follow
+  %ul.follow-links
+    %li.follow-link=link_to image_tag("pinterest.png", alt: "Pinterest"), 'http://www.pinterest.com/marisacatalina/', target: "_blank"
+    %li.follow-link=link_to image_tag("behance.png", alt:"Behance"), 'https://www.behance.net/MarisaCatalinaCasey', target: "_blank"
+    %li.follow-link=link_to image_tag("instagram.png", alt:"Instagram"), 'http://instagram.com/marisacatalina', target: "_blank"
+    %li.follow-link=link_to image_tag("linkedIn.png", alt:"LinkedIn"),'http://lnkd.in/bFyYMMB', target: "_blank"
+    %li.follow-link=link_to image_tag("vimeo.png", alt:"Vimeo"), 'https://vimeo.com/user3759496', target: "_blank"
+    %li.follow-link=link_to image_tag("wordpress.png", alt:"Wordpress"), 'http://partnersforpeace.wordpress.com', target: "_blank"
+
+%span#contact-offset.spacer-blue
 
 %section#contact
-  %h2 Contact

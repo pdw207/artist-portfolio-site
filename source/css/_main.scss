@@ -13,8 +13,6 @@
   src: url("../fonts/Brandon_bld.otf") format("opentype");
 }
 
-h1,h2,h3,h4,h5,body,p,a,{
-  font-family: "Brandon", "Helvetica Neue", sans-serif;
 @font-face {
   font-family: "Brandon";
   font-weight: 800;
@@ -22,13 +20,11 @@ h1,h2,h3,h4,h5,body,p,a,{
 }
 
 html {
-  font-size: $base-font-size;
+    font-size: $base-font-size;
 }
 
-
-//Navigation bar
-nav.top-bar.main {
-  height: $top-bar-height;
+h1,h2,h3,h4,h5,body,p,a, button, input {
+  font-family: "Brandon", "Helvetica Neue", sans-serif;
 }
 
 h2,h1 {
@@ -37,15 +33,16 @@ h2,h1 {
   font-weight: bold;
 }
 
-h2 {
-  letter-spacing: 5px;
-  font-size: 3em;
+h3 {
+  text-align: center;
+  font-weight: 600;
 }
 
-h3 {
-  margin: $header-spacing 0;
-  font-weight: bold;
+p {
+text-align: justify;
 }
+
+//Navigation bar
 
 #logo {
   position: relative;
@@ -55,39 +52,61 @@ h3 {
   height: $logo-size;
   margin-top: $logo-size / -2;
   z-index: 1;
+  display: none;
 }
 
-
-#main-menu-links a {
+#menu-links a {
   font-family: "Brandon", "Helvetica Neue", sans-serif;
-  line-height: $top-bar-height;
   text-transform: uppercase;
-  font-size: 1em;
-  padding: 0 2em;
+  text-align: center;
+  letter-spacing: 3px;
 }
+
+#menu-links li ul li a {
+  line-height: 2.5em;
+}
+
+//main content
+
+.content {
+  //forces height of main content to be height of contents
+  overflow: auto;
+  margin-bottom: 3em;
+}
+
+.page-title {
+  letter-spacing: 1px;
+  font-size: 2.25em;
+  padding: 1em 0;
+}
+
+.sub-heading {
+  padding-bottom: 30px;
+}
+
+.divider {
+  padding-top: $section-spacing-tablet-up;
+}
+
 //Footer
 
 footer {
-  height: 75px; 
   width: 100%;
+  max-height: 50px;
   background-color: black;
   text-transform: uppercase;
+
   p {
-    width: 220px;
     margin: auto;
     color: white;
-    line-height: 75px;
+    font-size: 0.75em;
+    line-height: 100%;
+    display: inline-block;
+    padding: 10px 0 10px 10%;
   }
+
   copyright::before {
     content: "\00A9";
   }
 }
 
-// Global
-section {
-  @extend .row;
-}
-
-.page-content {
-  margin: $top-bar-height 0;
-}

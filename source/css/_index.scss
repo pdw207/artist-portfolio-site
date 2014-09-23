@@ -1,38 +1,160 @@
-h2 {
-  text-align: center;
-  margin-bottom: $header-spacing;
-  text-transform: uppercase;
-}
-
-body > section {
-  padding-top: $section-spacing;
-}
+//Splash Photo and Headline
 
 #splash {
   width: 100%;
-  padding-bottom: $header-spacing;
 }
 
-#headline {
+.headline-copy {
+  @extend .small-10;
+  margin: auto;
   max-width: 900px;
-  p {
-    font-size: 1.5em;
+
+}
+
+#headline p {
+  font-size: 1.45em;
+}
+
+//Project Section
+
+.project {
+  @extend .small-12, .medium-4;
+  display: block;
+  width:338px;
+  height:225px;
+  margin: 20px auto;
+  img {
+    padding: 15px;
   }
 }
 
-.project {
-  @extend .small-4;
-  float: left;
-  padding: 0 15px;
+.project-mujeres-cambia {
+  background: url(../img/FeaturedHoverTemplateMujeresCambia_Final-01.jpg) bottom;
+  &:hover {
+  background-position: 0 0;
+  }
+}
+
+.project-why-art-matters {
+  background: url(../img/FeaturedHoverTemplate_WhyArtsFinal-01.jpg) bottom;
+  &:hover {
+  background-position: 0 0;
+  }
+}
+
+.project-peace-corps {
+  background: url(../img/FeaturedHoverTemplate_PeaceCorpsFinal-01.jpg) bottom;
+  &:hover {
+  background-position: 0 0;
+  }
+}
+
+//Follow Section
+
+ul.follow-links {
+  overflow: auto;
+  margin: 0;
 }
 
 .follow-link {
   @extend .small-2;
+  list-style: none;
   float: left;
   padding: 0 10px;
 }
 
+//Contact
+
+#contact {
+  margin-bottom: 140px;
+}
+
+input#first-name, input#last-name, input#email {
+  float: right;
+  width: 100%;
+  height: $contact-form-height / 3;
+  border: none;
+  padding-left: 20px;
+  color: white;
+}
+
+.left-col {
+  @extend .small-12, .medium-6;
+  float: left;
+}
+
+.right-col {
+  @extend .small-12, .medium-6;
+  float: left;
+}
+
+#first-name {
+  background-color: $green;
+  margin: 0;
+  border:none;
+}
+
+#last-name {
+  background-color: $yellow;
+  margin: 0;
+  border:none;
+}
+
+#email {
+  background-color: $orange;
+  margin: 0;
+  border:none;
+}
+
+textarea.message {
+  background-color: $red;
+  height: $contact-form-height;
+  border: none;
+  padding-left: 20px;
+  color: white;
+}
+
+*::-webkit-input-placeholder {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+*:-moz-placeholder {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+*::-moz-placeholder {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+*:-ms-input-placeholder {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+button.submit {
+  width: 230px;
+  margin: auto;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  letter-spacing: 1px;
+}
+
 //Spacers
+
 span.spacer-green {
   @include color-seperator($green);
 }
@@ -48,3 +170,5 @@ span.spacer-red {
 span.spacer-blue {
   @include color-seperator($blue);
 }
+
+

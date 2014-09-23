@@ -1,16 +1,27 @@
+.portrait{
+  @extend .small-12, .large-6, .small-centered;
+  float: left;
+  padding: 0 40px 50px 40px;
+}
+
 .narrative {
-  img {
-    width: 40%;
-    float: left;
-    padding-right: 40px;
-  }
+  @extend .small-12, .large-6, .small-centered;
+  float: left;
+  padding: 0 40px;
   p {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 }
-.small-full-page{
-  display: block;
-  @extend .small-centered;
-  @extend .column;
-  @extend .small-11;
+
+.clients {
+  clear: both;
+  padding-top: 50px;
+  h3 {
+    padding-bottom: 50px;
+  }
+}
+
+.client-list {
+  @extend .small-10, .small-centered;
+  margin: auto 8%;
 }

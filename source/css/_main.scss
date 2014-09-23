@@ -3,17 +3,22 @@
 
 @font-face {
   font-family: "Brandon";
+  font-weight: normal;
   src: url("../fonts/Brandon_reg.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Brandon";
-  font-weight: bold;
+  font-weight: 600;
   src: url("../fonts/Brandon_bld.otf") format("opentype");
 }
 
 h1,h2,h3,h4,h5,body,p,a,{
   font-family: "Brandon", "Helvetica Neue", sans-serif;
+@font-face {
+  font-family: "Brandon";
+  font-weight: 800;
+  src: url("../fonts/Brandon_blk.otf") format("opentype");
 }
 
 html {

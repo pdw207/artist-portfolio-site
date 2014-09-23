@@ -92,3 +92,18 @@
     float: left;
   }
 }
+
+//Medium Screens
+@media only screen and (min-width:40.063em) and (max-width: 1120px) {
+
+  #portfolio {
+    width: 100%;
+  }
+  .filters {
+    width: 350px;
+  }
+
+  .filter-wrapper{
+    display: block;
+  }
+}

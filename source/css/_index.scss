@@ -20,8 +20,8 @@
 .project {
   @extend .small-12, .medium-4;
   display: block;
-  width:338px;
-  height:225px;
+  width:324px;
+  height:216px;
   margin: 20px auto;
   img {
     padding: 15px;
@@ -29,21 +29,21 @@
 }
 
 .project-mujeres-cambia {
-  background: url(../img/FeaturedHoverTemplateMujeresCambia_Final-01.jpg) bottom;
+  background: url(../img/FeaturedHoverMujeresCambiaNEW.jpg) bottom;
   &:hover {
   background-position: 0 0;
   }
 }
 
 .project-why-art-matters {
-  background: url(../img/FeaturedHoverTemplate_WhyArtsFinal-01.jpg) bottom;
+  background: url(../img/FeaturedHoverWhyArtsNEW.jpg) bottom;
   &:hover {
   background-position: 0 0;
   }
 }
 
 .project-peace-corps {
-  background: url(../img/FeaturedHoverTemplate_PeaceCorpsFinal-01.jpg) bottom;
+  background: url(../img/FeaturedHoverPeaceCorpsNEW.jpg) bottom;
   &:hover {
   background-position: 0 0;
   }

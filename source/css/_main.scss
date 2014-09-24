@@ -44,6 +44,15 @@ text-align: justify;
 
 //Navigation bar
 
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+  background: #000;
+}
+
+
+.top-bar.expanded .title-area {
+  background: #000;
+}
+
 #logo {
   position: relative;
   top: $top-bar-height / 2 ;

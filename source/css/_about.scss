@@ -1,3 +1,11 @@
+.about-me-wrapper {
+  margin: auto;
+  overflow: hidden;
+  @media only screen and (min-width: 1025px) and (max-width: 1357px) {
+    font-size: 0.9em;
+  }
+}
+
 .portrait{
   @extend .small-12, .large-6, .small-centered;
   float: left;
@@ -22,6 +30,7 @@
 }
 
 .client-list {
-  @extend .small-10, .small-centered;
-  margin: auto 8%;
+  @extend .small-8, .small-centered;
+  display: block;
+  margin: 4% auto;
 }

@@ -19,13 +19,14 @@
 
 .filters {
   @extend .small-12, .medium-10, .medium-centered, .column;
-  margin-bottom: 50px;
+  margin: 3em auto;
+  display: block;
   float: none;
-  display: none;
+  width: 175px;
 }
 
 .filter-wrapper {
-  display: inline-block;
+  display: block;
 }
 
 .portfolio-filter {
@@ -34,7 +35,6 @@
   text-transform: uppercase;
   font-weight: 700;
   padding-left: 10px;
-  padding-right: 80px;
 }
 
 // triangles

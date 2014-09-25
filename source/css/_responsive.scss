@@ -60,8 +60,17 @@
   }
 
   //work
+ .portfolio-filter {
+    padding-left: 10px;
+    padding-right: 80px;
+  }
+
+  .filter-wrapper {
+    display: inline-block;
+  }
+
   .filters {
-    display: block;
+    width: 80%;
   }
 
   img.photography, img.video, img.graphic-design {
@@ -101,13 +110,5 @@
   #portfolio {
     width: 100%;
   }
-  .filters {
-    width: 350px;
-  }
-
-  .filter-wrapper{
-    display: block;
-  }
-
 }
 

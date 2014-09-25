@@ -35,14 +35,15 @@
   .project {
     display: inline-block;
   }
- 
+
  .portfolio-story {
     padding: 140px 0;
   }
+
   .project-group {
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-box;      /* iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* Firefox 19*/
+    display: -ms-flexbox;      /* IE 10 */
     display: -webkit-flex;
     display: flex;
   }
@@ -58,6 +59,16 @@
   span[class^='spacer'] {
     margin: $section-spacing-tablet-up auto;
   }
+
+  #contact {
+    margin-bottom: 200px;
+    padding-top: 110px;
+  }
+
+  #contact-offset {
+    margin-bottom: 20px;
+  }
+
 
   //work
  .portfolio-filter {
@@ -78,15 +89,6 @@
     margin: 10px;
     width: auto;
     left: 0 !important;
-  }
-
-  #contact {
-    margin-bottom: 200px;
-    padding-top: 110px;
-  }
-
-  #contact-offset {
-    margin-bottom: 20px;
   }
 
   .vimeo, .youtube {

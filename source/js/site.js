@@ -29,25 +29,19 @@ window.onload = function() {
     openModal();
     var photoCollection = $(this).data('collection').split(',');
     var slideShow = $('.orbit-slides-container')[0];
-
     photoCollection.forEach(function(photo){
       $(slideShow).append('<li style="z-index: 2; margin-left: 100%;"><img class="photo-slide" src="/img/' +  photo + '"></li>');
     })
     $('.orbit-container').append(slideShow);
 
-    // Set styles on first object
-    var $firstPhoto = $('.orbit-container ul li:first-child');
-    $firstPhoto.css('z-index','4');
-    $firstPhoto.css('margin-left','0');
-    $firstPhoto.addClass('active');
+    //start first slide
+    $( ".orbit-next" ).trigger( "click" )
 
+    //Click the photo you advance
     $( ".photo-slide" ).click(function() {
        $( ".orbit-next" ).trigger( "click" );
     });
-
-
   }
-
 
   //Click to Open Modal
   for(var i=0; i < artPieces.length; i ++){
@@ -61,7 +55,6 @@ window.onload = function() {
     }
 
   });
-
 
   //actions on key events
   this.onkeydown = function(evt) {

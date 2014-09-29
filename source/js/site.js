@@ -27,15 +27,15 @@ window.onload = function() {
 
   function createModal() {
     openModal();
-    var photoCollection = $(this).data('collection').split(',');
+    var album = $(this).data('collection').split(',');
     var slideShow = $('.orbit-slides-container')[0];
-    photoCollection.forEach(function(photo){
+       album.forEach(function(photo){
       $(slideShow).append('<li style="z-index: 2; margin-left: 100%;"><img class="photo-slide" src="/img/' +  photo + '"></li>');
     })
     $('.orbit-container').append(slideShow);
 
     //start first slide
-    $( ".orbit-next" ).trigger( "click" )
+    $( ".orbit-next" ).trigger( "click" );
 
     //Click the photo you advance
     $( ".photo-slide" ).click(function() {

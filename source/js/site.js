@@ -28,10 +28,18 @@ window.onload = function() {
   function createModal() {
     openModal();
     var album = $(this).data('collection').split(',');
+    var albumCaption = $(this).data('caption');
+    var albumTitle = $(this).data('title');
     var slideShow = $('.orbit-slides-container')[0];
        album.forEach(function(photo){
       $(slideShow).append('<li style="z-index: 2; margin-left: 100%;"><img class="photo-slide" src="/img/' +  photo + '"></li>');
     })
+
+    if (typeof albumTitle != 'undefined') {
+      $(slideShow).append('<li data-orbit-slide="headline-1" class="caption"><div><h2>'+ albumTitle +'</h2><h3>'+ albumCaption +'</h3></div></li>');
+    }
+
+
     $('.orbit-container').append(slideShow);
 
     //start first slide

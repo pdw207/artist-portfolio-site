@@ -74,6 +74,10 @@
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
   transition-property: height, width;
+
+  @media only screen and (min-width:40.063em) and (max-width: 1120px) {
+    width: 100%;
+  }
 }
 
 img.photography, img.video, img.graphic-design, .vimeo, .youtube{

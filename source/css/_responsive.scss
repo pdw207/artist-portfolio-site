@@ -85,7 +85,7 @@
     width: 80%;
   }
 
-  .photography, .graphic-design {
+  .photography, .graphic-design, .video {
     height: 216px;
     margin: 10px;
     width: auto;
@@ -97,8 +97,8 @@
   }
 
   #portfolio iframe {
-    padding: 14px;
     width: auto;
+    height: 100%;
     float: left;
   }
 }

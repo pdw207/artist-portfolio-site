@@ -80,7 +80,12 @@
   }
 }
 
-.photography, .graphic-design, .video{
+#portfolio img {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.photography, .graphic-design, .video {
   width:100%;
   left:-5px !important;
 }
@@ -88,6 +93,8 @@
 #portfolio iframe {
   width: 100%;
 }
+
+//Modal
 
 #backdrop {
   position: fixed;

@@ -156,19 +156,19 @@ button.submit {
 //Spacers
 
 span.spacer-green {
-  @include color-seperator($green);
+  @include color-seperator($primary-green);
 }
 
 span.spacer-yellow {
-  @include color-seperator($yellow);
+  @include color-seperator($primary-yellow);
 }
 
 span.spacer-red {
-  @include color-seperator($red);
+  @include color-seperator($primary-red);
 }
 
 span.spacer-blue {
-  @include color-seperator($blue);
+  @include color-seperator($primary-blue);
 }
 
 

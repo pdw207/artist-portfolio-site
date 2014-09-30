@@ -40,23 +40,23 @@
 // triangles
 
 .yellow-arrow {
-  @include arrow($yellow);
+  @include arrow($primary-yellow);
 }
 
 .green-arrow {
-  @include arrow($green);
+  @include arrow($primary-green);
 }
 
 .red-arrow {
-  @include arrow($red);
+  @include arrow($primary-red);
 }
 
 .blue-arrow {
-  @include arrow($blue);
+  @include arrow($primary-blue);
 }
 
 .orange-arrow {
-  @include arrow($orange);
+  @include arrow($primary-orange);
 }
 
 //Transitions for Isotope

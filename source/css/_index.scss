@@ -15,6 +15,39 @@
   font-size: 1.45em;
 }
 
+//Blog
+
+.blog-link {
+  position: relative; 
+  display: block;
+  background-color:#000;
+  height: 100%;
+}
+
+//on hover hide image and show title
+.blog-link:hover .blog-image {
+  opacity: 0;
+}
+
+.blog-link:hover .blog-title {
+  opacity: 1;
+}
+
+.blog-title {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%);/* Safari */
+}
+
 //Project Section
 
 .project {

@@ -61,8 +61,7 @@
 
 //Transitions for Isotope
 
-#portfolio, .art{
-  padding: 5px;
+#portfolio, .art, .album-cover{
   float: none;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duraction: 0.8s;
@@ -70,24 +69,60 @@
 }
 
 #portfolio {
-  @extend .small-12, .medium-10, .medium-centered, .column;
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  transition-property: height, width;
+  @extend .small-12, .medium-11, .medium-centered, .column;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  transition-property: all;
 
   @media only screen and (min-width:40.063em) and (max-width: 1120px) {
     width: 100%;
   }
 }
 
+.art {
+  position: relative;
+  display: table;
+  margin-bottom: 15px;
+  width: 100%;
+  transform: translate3d(-13px, 0px, 0px);
+}
+
+.album-caption {
+  color: white;
+  margin: 0;
+  width: 75%;
+  opacity: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6em;
+  text-align: center;
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%);/* Safari */
+}
+
+//On art hover album caption is displayed
+.art:hover .album-caption {
+  opacity: 1;
+}
+
+.album-cover {
+  width:100%;
+}
+
+//Only image art has pointer and fade
 #portfolio img {
   cursor: pointer;
   cursor: hand;
-}
+  &:hover {
+    opacity: 0;
+  }
 
-.photography, .graphic-design, .video {
-  width:100%;
-  left:-5px !important;
 }
 
 #portfolio iframe {

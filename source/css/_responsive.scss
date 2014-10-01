@@ -85,11 +85,19 @@
     width: 80%;
   }
 
-  .photography, .graphic-design, .video {
-    height: 216px;
+  .art {
+    display: inline-block;
     margin: 10px;
     width: auto;
-    left: 0 !important;
+  }
+
+  .album-caption {
+      font-size: 0.8em;
+  }
+
+  .album-cover {
+    height: 216px;
+    width: auto;
   }
 
   .orbit-slides-container{

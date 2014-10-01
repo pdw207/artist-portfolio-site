@@ -89,8 +89,9 @@ var $container = $('#portfolio');
 $container.isotope({});
 
 $('a.portfolio-filter').click(function(){
-  var selector;
-  selector = "." + this.text.replace(" ", "-");
+  var selector, fitSelector;
+  fitSelector = $.trim($(this).text());
+  selector = "." + fitSelector.replace(" ", "-");
   selector = selector.toLowerCase();
   if ( selector === ".all"){ selector = ".art" };
   $container.isotope({ filter: selector });

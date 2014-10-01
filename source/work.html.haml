@@ -6,18 +6,19 @@ logo: "../img/MCC_logo_Orange_Blue.png"
   %h1.page-title Work
 
 %section.filters
-  .filter-wrapper
+  %a.portfolio-filter 
     %span.green-arrow
-    %a.portfolio-filter photography
-  .filter-wrapper
+    .filter-text photography
+  %a.portfolio-filter 
     %span.orange-arrow
-    %a.portfolio-filter graphic design
-  .filter-wrapper
+    .filter-text  graphic design
+  %a.portfolio-filter 
     %span.yellow-arrow
-    %a.portfolio-filter video
-  .filter-wrapper
+    .filter-text  video
+  %a.portfolio-filter 
     %span.blue-arrow
-    %a.portfolio-filter all
+    .filter-text  all
+
 
 %section#portfolio
   = image_tag("VAC_Calendar_Cover.gif", class: "art photography graphic-design", data: {collection: "VAC_Calendar_CoverSM.png,VAC_Calendar_April.png,VAC_Calendar_Nov.png,VAC_Calendar_Feb.png"})

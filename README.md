@@ -1,5 +1,7 @@
 ## Instructions
 
+View site at [marisacatalinacasey](http://marisacatalinacasey.com)
+
 ###Installation and Setup
 
 1. Update dependencies with`bower install`

@@ -1,9 +1,16 @@
 # If you have OpenSSL installed, we recommend updating
-source 'http://rubygems.org'
+# the following line to use "https"
+source "http://rubygems.org"
 
-gem "middleman", "~>3.3.5"
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman"
+gem 'middleman-s3_sync'
+gem "middleman-livereload"
+gem "middleman-deploy"
+gem "bourbon"
+gem "neat"
 
-group :test, :development do
+group :development do
   gem 'pry'
+  gem 'dotenv'
 end
+

@@ -1,11 +1,14 @@
 require "extensions/views"
 require 'pry'
 require 'dotenv'
+require 'builder'
+
 Dotenv.load
 
 activate :views
 activate :directory_indexes
 
+page "/sitemap.xml", :layout => false
 
 compass_config do |config|
   config.add_import_path "bower_components/foundation/scss"

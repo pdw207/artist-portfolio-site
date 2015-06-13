@@ -98,6 +98,9 @@ ul.follow-links {
 
 //Contact
 
+label {
+  display: none;
+}
 #contact {
   margin-bottom: 140px;
 }
@@ -182,8 +185,6 @@ button.submit {
   text-transform: uppercase;
   display: block;
   margin-top: 30px;
-  padding-top: 3px;
-  padding-bottom: 3px;
   letter-spacing: 1px;
 }
 

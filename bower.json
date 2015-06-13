@@ -15,7 +15,6 @@
   ],
   "dependencies": {
     "foundation": "~5.4.0",
-    "isotope": "~2.0.0",
-    "modernizer": "~2.8.3"
+    "isotope": "~2.0.0"
   }
 }

@@ -41,9 +41,17 @@ priority: "1"
 
 %span#contact-offset.spacer-blue
 
+%iframe#thank-you.hide{:name => "thank-you-redirect"}
+.modal
+  %input#modal-1.modal-state{:type => "checkbox"}/
+  .modal-window
+    .modal-inner
+      %label.modal-close{:for => "modal-1"}
+      %h2.modal-into Your form has been submited. Thank you. We will be in contact with you shortly.
+
 %section#contact
   %h2.sub-heading Contact
-  %form.small-12.medium-8.medium-centered.columns{"accept-charset" => "UTF-8", :action => "https://marisacatalina.wufoo.com/forms/z16s63fk123iatw/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => ""}
+  %form.small-12.medium-8.medium-centered.columns{"accept-charset" => "UTF-8", :action => "https://marisacatalina.wufoo.com/forms/z16s63fk123iatw/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => "", :target => "thank-you-redirect"}
     .row
       .left-col
         %label.visuallyhidden{:for => "Field17"} First Name

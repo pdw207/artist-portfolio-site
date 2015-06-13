@@ -32,7 +32,7 @@ window.onload = function() {
     var albumTitle = $(this).data('title');
     var slideShow = $('.orbit-slides-container')[0];
        album.forEach(function(photo){
-      $(slideShow).append('<li style="z-index: 2; margin-left: 100%;"><img class="photo-slide" src="/img/' +  photo + '"></li>');
+      $(slideShow).append('<li style="z-index: 2; margin-left: 100%;"><img class="photo-slide" src="/assets/images/' +  photo + '"></li>');
     })
 
     if (typeof albumTitle != 'undefined') {

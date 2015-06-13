@@ -1,9 +1,21 @@
 require "extensions/views"
+require 'pry'
 require 'dotenv'
 Dotenv.load
 
 activate :views
 activate :directory_indexes
+
+
+compass_config do |config|
+  config.add_import_path "bower_components/foundation/scss"
+  config.output_style = :compact
+end
+
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  sprockets.append_path File.join "#{root}", @bower_config["directory"]
+end
 
 set :relative_links, true
 set :css_dir, 'assets/stylesheets'
@@ -15,7 +27,6 @@ set :layout, 'layouts/application'
 configure :development do
  activate :livereload
 end
-
 configure :build do
   # Relative assets needed to deploy to Github Pages
   activate :relative_assets

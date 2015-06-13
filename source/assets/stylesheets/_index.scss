@@ -18,7 +18,7 @@
 //Blog
 
 .blog-link {
-  position: relative; 
+  position: relative;
   display: block;
   background-color:#000;
   height: 100%;
@@ -62,21 +62,21 @@
 }
 
 .project-mujeres-cambia {
-  background: url(../img/FeaturedHoverMujeresCambiaNEW.jpg) bottom;
+  background: url(/assets/images/FeaturedHoverMujeresCambiaNEW.jpg) bottom;
   &:hover {
   background-position: 0 0;
   }
 }
 
 .project-why-art-matters {
-  background: url(../img/FeaturedHoverWhyArtsNEW.jpg) bottom;
+  background: url(/assets/images/FeaturedHoverWhyArtsNEW.jpg) bottom;
   &:hover {
   background-position: 0 0;
   }
 }
 
 .project-peace-corps {
-  background: url(../img/FeaturedHoverPeaceCorpsNEW.jpg) bottom;
+  background: url(/assets/images/FeaturedHoverPeaceCorpsNEW.jpg) bottom;
   &:hover {
   background-position: 0 0;
   }
@@ -177,6 +177,7 @@ textarea.message {
 
 button.submit {
   width: 230px;
+  color: white;
   margin: auto;
   text-transform: uppercase;
   display: block;

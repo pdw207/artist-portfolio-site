@@ -40,7 +40,15 @@ h3 {
 }
 
 p {
-text-align: justify;
+  text-align: justify;
+}
+
+::selection {
+  background: $primary-red; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: $primary-red; /* Gecko Browsers */
 }
 
 //Navigation bar

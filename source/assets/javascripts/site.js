@@ -1,5 +1,6 @@
 window.onload = function() {
 
+  $(document).foundation();
   // Create Isotope Container for Artwork
   $('#portfolio').isotope({
     itemSelector: '.art',

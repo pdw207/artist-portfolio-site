@@ -3,9 +3,9 @@
   JQUERY4U.UTIL = setupFormValidation: ->
     $('#form1').validate
       rules:
-        Field5: 'required'
+        Field16: 'required'
       messages:
-        Field5: 'You forgot to enter a message'
+        Field16: 'You forgot to enter a message'
       submitHandler: (form) ->
         $('#modal-1').prop 'checked', true
         form.submit()

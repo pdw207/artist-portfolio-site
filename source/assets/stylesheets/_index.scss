@@ -100,6 +100,9 @@ ul.follow-links {
 
 label {
   display: none;
+  &.error {
+    color: black;
+  }
 }
 #contact {
   margin-bottom: 140px;

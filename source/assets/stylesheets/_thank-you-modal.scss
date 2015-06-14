@@ -73,6 +73,7 @@
     @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
     @include size(1.5em);
     background: $modal-background;
+    display: block;
     cursor: pointer;
 
     &:after,
@@ -126,8 +127,15 @@
       text-transform: capitalize;
     }
 
-    .modal-intro {
+    .modal-text {
       font-weight: 800;
+      font-size: 1.5em;
+      text-transform: none;
+      font-weight: normal;
+      padding: inherit;
+      @include media($medium-screen) {
+        padding: 0;
+      }
     }
 
     .modal-content {

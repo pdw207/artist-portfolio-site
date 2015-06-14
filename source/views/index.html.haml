@@ -47,24 +47,24 @@ priority: "1"
   .modal-window
     .modal-inner
       %label.modal-close{:for => "modal-1"}
-      %h2.modal-into Your form has been submited. Thank you. We will be in contact with you shortly.
+      %h2.modal-text Thanks for reaching out! I will be in touch soon.
 
 %section#contact
   %h2.sub-heading Contact
-  %form.small-12.medium-8.medium-centered.columns{"accept-charset" => "UTF-8", :action => "https://marisacatalina.wufoo.com/forms/z16s63fk123iatw/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => "", :target => "thank-you-redirect"}
+  %form#form1.small-12.medium-8.medium-centered.columns{"accept-charset" => "UTF-8", :action => "https://marisacatalina.wufoo.com/forms/z16s63fk123iatw/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => "", :target => "thank-you-redirect"}
     .row
       .left-col
         %label.visuallyhidden{:for => "Field17"} First Name
         %input#first-name{:name => "Field17", :onkeyup => "", :tabindex => "1", :type => "text", :value => "", :placeholder=>"First Name"}/
         %label.visuallyhidden{:for => "Field18"} Last Name
         %input#last-name{:name => "Field18", :onkeyup => "", :tabindex => "2", :type => "text", :value => "", :placeholder=>"Last Name"}/
-        %label.visuallyhidden{:for => "Field15"} Email
-        %input#email{:name => "Field15", :spellcheck => "false", :tabindex => "3", :type => "email", :value => "", :placeholder=>"Email Address"}/
+        %label.visuallyhidden{:for => "Field20"} Email
+        %input#email{:name => "Field20", :spellcheck => "false", :tabindex => "3", :type => "email", :value => "", :placeholder=>"Email Address"}/
       .right-col
         %label.visuallyhidden{:for => "Field16"} Message
         %textarea.message{:name => "Field16", :onkeyup => "", :rows => "10", :spellcheck => "true", :tabindex => "4", :placeholder=>"Message"}
     .row
-      %button.submit{:name => "saveForm", :type => "submit", :value => "Submit"} Submit
+      %button.submit{:name => "saveForm", :type => "submit", :tabindex => "5", :value => "Submit"} Submit
       .hide
         %label{:for => "comment"}
         %textarea#comment{:cols => "1", :name => "comment", :rows => "1"}

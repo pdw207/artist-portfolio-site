@@ -22,6 +22,10 @@
   display: block;
   background-color:#000;
   height: 100%;
+
+  &:hover .blog-date {
+    display: none;
+  }
 }
 
 //on hover hide image and show title

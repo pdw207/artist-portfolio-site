@@ -1,6 +1,21 @@
-
-.blog-post{
+.blog-post {
   margin: 50px 0;
 }
 
+.blog-date {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  border: 3px white solid;
+  padding: 0.2em 1.5em;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  @media only screen and (min-width:40.063em) {
+    font-size: 2em;
+    border: 7px white solid;
+  }
+}
 

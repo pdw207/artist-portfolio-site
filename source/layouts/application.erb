@@ -19,8 +19,8 @@
             </ul>
             <section class="top-bar-section">
               <ul class="right" id="menu-links">
-                <li>
-                <%= link_to 'home', '/'   %>
+                <li class="home-nav">
+                <%= nav_link 'home', '/'   %>
                 </li>
                 <li>
                 <%= link_to 'about', '/about'   %>
@@ -32,10 +32,11 @@
                     <li><%= link_to 'why arts matter', '/why-art-matters' %></li>
                     <li><%= link_to 'mujeres: cambia', '/mujeres-cambia' %></li>
                     <li><%= link_to 'peace corps', '/peace-corps' %></li>
+                    <li><%= link_to 'dear daughter', 'http://deardaughterlove.me', :target => "_blank"%></li>
                   </ul>
                 </li>
                 <li>
-                <%= link_to 'blog', '/blog.html' %>
+                <%= link_to 'blog', '/blog' %>
                 </li>
                 <li>
                 <%= link_to 'contact', '/#contact' %>

@@ -73,6 +73,11 @@ p {
   display: none;
 }
 
+.home-nav {
+  @media only screen and (min-width:40.063em) {
+    display: none;
+  }
+}
 #menu-links a {
   font-family: "Brandon", "Helvetica Neue", sans-serif;
   text-transform: uppercase;

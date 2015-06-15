@@ -1,0 +1,218 @@
+- name: VAC Calendar Cover
+  type: photography graphic-design
+  cover: VAC_Calendar_Cover.gif
+  photos:
+    - VAC_Calendar_CoverSM.png
+    - VAC_Calendar_April.png
+    - VAC_Calendar_Nov.png
+    - VAC_Calendar_Feb.png
+
+- name: Road Trip Moments
+  headline: Road<br/>Trip<br/>Moments
+  cover: RoadTripRainWindshield.jpg
+  type: photography
+  photos:
+    - RoadTripRainWindshield.jpg
+    - RoadTripFerrisWheelNight.jpg
+    - RoadTripFlagsWaving.jpg
+    - RoadTripRedwoodsDusk.jpg
+    - RoadTripLakePowerlines.jpg
+    - RoadTripMill.jpg
+
+- name: Galapagos Ecuador Animals
+  headline: Galapagos<br/>Ecuador<br/>Animals
+  cover: Galapagos_Crab.gif
+  type: photography
+  photos:
+    - Galapagos_RedEyeBird_SM.jpg
+    - Ecuador_Tortoise_SM.jpg
+    - Galapagos_BlueFootBooby_SM.jpg
+    - Galapagos_Iguana_SM.jpg
+    - Galapagos_Crab_SM.jpg
+    - Galapagos_SeaLion_SM.jpg
+
+- name: DAG Designs Interiors
+  type: photography
+  cover: Bed_Detail_SQ.gif
+  headline: DAG<br/>Designs<br/>Interiors
+  photos:
+    - DiningTablePainting_SM.png
+    - ViewOutside2_SM.jpg
+    - BoysRoom3_SM.jpg
+    - GirlsRoom1_SM.jpg
+    - GirlsRoom3_SM.jpg
+    - BedroomWide2_SM.jpg
+
+- name: Paris France Moments
+  type: photography
+  cover: Pompidou_Exterior.gif
+  headline: Paris<br/>France<br/>Moments
+  photos:
+    - ParisRomaTent_SM.jpg
+    - ParisArcTriomphe_SM.jpg
+    - LouvreWorkshop_SM.jpg
+    - StreetSceneDuskParis_SM.jpg
+    - StreetArtPantherSM.jpg
+    - PompidouOutside_SM.jpg
+
+- name: 'Mujeres: Cambia'
+  type: photography graphic-design
+  cover: Mujeres_Cambia_Bracelets_SQ.gif
+  headline: Mujeres:Cambia<br/>Website<br/>Photography
+  photos:
+    - MC_WebsiteSM.jpg
+    - MC_Website_NecklacresSM.jpg
+    - MC_Website_ArtistsSM.jpg
+    - MC_Website_LookbookSM.jpg
+    - MC_Website_BraceletsSM.jpg
+
+- name: Burning Man Moments
+  type: photography
+  cover: Burning_Man_Balloons.jpg
+  headline: Burning<br/>Man<br/>Moments
+  photos:
+    - BurningHorizontal_SM.jpg
+    - OrangeSculptureDesert_SM.jpg
+    - TrapezeFallingWoman_SM.jpg
+    - BurningManBalloons_SM.png
+    - TrojanHorseCraneDusk_SM.jpg
+    - TempleNightBlur_SM.jpg
+
+- name: Peace Corps Anniversary Infographic
+  type: graphic-design
+  cover: Peace_Corps_Infographic.gif
+  headline: Peace Corps<br/>Anniversary<br/>Infographic
+  photos:
+    - PC_50InfographicPrint.jpg
+    - Peace_Corps_Infographic.png
+
+- name: Logo Design for Kinua Organics
+  type: graphic-design
+  cover: Kinua_Logo.gif
+  headline: Kinua<br/>Organics<br/>Logos
+  photos:
+    - KinuaLogo2Wide_SM.jpg
+    - KinuaLogo1_SM.jpg
+
+- name: 'Mujeres: Cambia Print Design'
+  type: photography graphic-design
+  cover: Mujeres_Cambia_Brochure.gif
+  headline: MC<br/>Print<br/>Design
+  photos:
+    - MCPostcard1.png
+    - MCPostcard2.png
+    - McBrochure2.png
+    - McBrochure1.png
+
+- name: All Newton Music School
+  type: photography
+  cover: All_Newton_Music_Portrait.gif
+  headline: All Newton<br/>Music<br/>School
+  photos:
+    - CharlieBrownGirlSinging_SM.jpg
+    - TheatreClassBoyEyes_SM.jpg
+    - MusicClassXylophone.jpg
+    - KeyboardClass2_SM.jpg
+    - TheatreClass3_SM.jpg
+    - Ramp1Vertical_SM.png
+
+- name: Peace Corps Game
+  type: graphic-design
+  cover: Ecuador_Game_Cards.gif
+  headline: Peace Corps<br/>Ecuador<br/>Boardgame
+  photos:
+    - PC_EcuadorCardsWeb.jpg
+    - PeaceCorpsGameBoardSM.png
+
+- name: Video
+  type: video
+  url: //player.vimeo.com/video/106988574
+
+- name: Celebrate Ecaudor Poster
+  type: photography graphic-design
+  cover: Mujeres_Cambia_Brochure.gif
+  headline: Celebrate<br/>Ecuador<br/>Poster
+  photos:
+    - Ecuador_Color_Collage.png
+    - EcuadorPosterMockUp.jpg
+
+- name: Travels with Charlie
+  type: photography
+  cover: ManyFacesCharlieALT_SM.jpg
+  headline: Travels<br/>in<br/>Charlie
+  photos:
+    - ManyFacesCharlieALT_SM.jpg
+    - CharlieVTMeadowAwesomeSM.jpg
+    - CharlieinDinerReflectSM.jpg
+    - CoastalPaperCoSM.jpg
+    - CharlieThroughTreesMohawkSM.jpg
+    - CharlieOffHighwaySM.jpg
+
+- name: 'Peace Corps Ominbus 107 T-shirt'
+  type: graphic-design
+  cover: Peace_Corps_Shirt_SQ.gif
+  headline: Peace Corps<br/>Omnibus 107<br/>T-shirt
+  photos:
+    - PeaceCorpsTShirtFront.png
+    - PeaceCorpsTShirtBack.png
+    - Peace_Corps_Shirt.png
+
+
+- name: Video
+  type: video
+  url: //player.vimeo.com/video/84488843
+
+- name: New Baby Pring Graphics
+  type: graphic-design
+  cover: Baby_Shower_Invite.gif
+  headline: New Baby<br/>Print<br/>Graphics
+  photos:
+    - BrooklynAnnouncementWeb.png
+    - BalloonInviteMockUpPurple.jpg
+    - BrookPosterMockUp.jpg
+    - BalloonInvitePhoto_SM.jpg
+
+- name: Art & Design Center Logo
+  type:  graphic-design
+  cover: CAD_Sticker.gif
+  headline:  Art & Design<br/>Center Logo
+  photos:
+    - CAD-70s-sticker.png
+    - CentrodeArteLogo2.jpg
+    - CentrodeArteLogo1.jpg
+
+- name: Selected Ecuador Moments
+  type: photography
+  cover: Ecuador_Truck.gif
+  headline: Selected <br/>Ecuador<br/>Moments
+  photos:
+    - HikeTumbacoWSLarge_SM.jpg
+    - ToySoldiers_SM.jpg
+    - CastleFireworks_SM.jpg
+    - SchoolBeachMinga_SM.jpg
+    - MuseoProhibido_SM.jpg
+    - CheTruck_SM.jpg
+
+- name: Video
+  type: video
+  url: //player.vimeo.com/video/69414940
+
+- name: The Nature Conservancy Presentations
+  type: graphic-design
+  cover: TNC_Slide.gif
+  headline: The Nature<br/>Conservancy<br/>Presentations
+  photos:
+    - TNC_FondosAgua.png
+    - TNC_DesafiosGlobales.png
+    - TNC_CalidadVida.png
+    - TNC_Desarrollo.png
+    - TNC_Paises.png
+    - TNC_Mision.png
+
+- name: No Botar Basura Campaign
+  type:  graphic-design
+  cover: No_Botar_Sticker.gif
+  headline: No Botar<br/>Basura<br/>Campagin
+  photos:
+    - NoBotarCampaign1.jpg
+    - NoBotarCampaign2.jpg

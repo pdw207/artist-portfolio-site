@@ -6,7 +6,7 @@ logo: "../assets/images/MCC_logo_Blue_Green.png"
 
 %section.blog-index
   %h1.page-title Blog
-  - data.posts.each_with_index do |post, index|
+  - data.posts.each do |post|
     %a.blog-link.blog-post(href="#{post.url}" target="_blank")
       %img.blog-image(src="../assets/images/#{post.photo}" alt="#{post.date} Post")
       %p.blog-title= post.title

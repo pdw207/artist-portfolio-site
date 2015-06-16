@@ -1,6 +1,63 @@
+- name: Allinace for Children Foundation
+  type: graphic-design
+  cover: AFCF_Poster_TitleSM.gif
+  color: yellow
+  headline: AFC <br> Foundation <br> Posters
+  photos:
+    - AFCF_Poster_GivingHopeSM.gif
+    - AFCF_Poster_MapSM.gif
+    - AFCF_Poster_ProgramsSM.gif
+    - AFCF_Poster_Haiti_EmploymentSM.gif
+
+- name: Montage of Montages
+  type: video
+  url: //player.vimeo.com/video/125504700
+
+- name: The Warmi Project Website
+  type: graphic-design
+  cover: Work_Warmi.jpg
+  color: orange
+  headline: The <br> Warmi Project <br> Website
+  photos:
+    - Warmi-Splash.gif
+    - Warmi-Inicio.gif
+    - Warmi-Home2.gif
+    - Warmi-Blog.gif
+
+- name: AFC Foundation 15 Years Video
+  type: video
+  url: //player.vimeo.com/video/127826703
+
+- name: Memorial Spaulding Extended Day Program
+  type: photography
+  cover: Work_MemorialSpaulding.jpg
+  color: blue
+  headline: Memorial Spaulding Extended Day
+  photos:
+    - MemSpauldGlobe.gif
+    - MemSpauldMap.gif
+    - MemSpauldExt_Day_Legos.gif
+    - MemSpauldRings.gif
+    - MemSpauldLincolnLogs.gif
+    - WalkingOut.gif
+    - MemSpauldSlide.gif
+
+- name: AFC Foundation School Workbook
+  type: graphic-design
+  cover: Work_HaitiWorkbook.jpg
+  color: green
+  headline: AFC Foundation <br> School <br> Workbook
+  photos:
+    - AFCF_Workbook_Haiti-Cover.gif
+    - AFCF_Workbook_Haiti-Flag.gif
+    - AFCF_Workbook_Haiti-Map.gif
+    - AFCF_Workbook_Haiti-Questions.gif
+
 - name: VAC Calendar Cover
   type: photography graphic-design
   cover: VAC_Calendar_Cover.gif
+  color: red
+  headline: Peace Corps <br/> Ecuador <br/> Calendar
   photos:
     - VAC_Calendar_CoverSM.png
     - VAC_Calendar_April.png
@@ -10,6 +67,7 @@
 - name: Road Trip Moments
   headline: Road<br/>Trip<br/>Moments
   cover: RoadTripRainWindshield.jpg
+  color: yellow
   type: photography
   photos:
     - RoadTripRainWindshield.jpg
@@ -22,6 +80,7 @@
 - name: Galapagos Ecuador Animals
   headline: Galapagos<br/>Ecuador<br/>Animals
   cover: Galapagos_Crab.gif
+  color: blue
   type: photography
   photos:
     - Galapagos_RedEyeBird_SM.jpg
@@ -34,6 +93,7 @@
 - name: DAG Designs Interiors
   type: photography
   cover: Bed_Detail_SQ.gif
+  color: orange
   headline: DAG<br/>Designs<br/>Interiors
   photos:
     - DiningTablePainting_SM.png
@@ -46,6 +106,7 @@
 - name: Paris France Moments
   type: photography
   cover: Pompidou_Exterior.gif
+  color: blue
   headline: Paris<br/>France<br/>Moments
   photos:
     - ParisRomaTent_SM.jpg
@@ -55,9 +116,10 @@
     - StreetArtPantherSM.jpg
     - PompidouOutside_SM.jpg
 
-- name: 'Mujeres: Cambia'
+- name: 'Mujeres Cambia'
   type: photography graphic-design
   cover: Mujeres_Cambia_Bracelets_SQ.gif
+  color: green
   headline: Mujeres:Cambia<br/>Website<br/>Photography
   photos:
     - MC_WebsiteSM.jpg
@@ -69,6 +131,7 @@
 - name: Burning Man Moments
   type: photography
   cover: Burning_Man_Balloons.jpg
+  color: orange
   headline: Burning<br/>Man<br/>Moments
   photos:
     - BurningHorizontal_SM.jpg
@@ -78,9 +141,18 @@
     - TrojanHorseCraneDusk_SM.jpg
     - TempleNightBlur_SM.jpg
 
+- name: Why Arts Matter Grand Prize Winning Video
+  type: video
+  url: //player.vimeo.com/video/106988574
+
+- name: Video
+  type: video
+  url: //player.vimeo.com/video/84488843
+
 - name: Peace Corps Anniversary Infographic
   type: graphic-design
   cover: Peace_Corps_Infographic.gif
+  color: blue
   headline: Peace Corps<br/>Anniversary<br/>Infographic
   photos:
     - PC_50InfographicPrint.jpg
@@ -89,14 +161,16 @@
 - name: Logo Design for Kinua Organics
   type: graphic-design
   cover: Kinua_Logo.gif
+  color: yellow
   headline: Kinua<br/>Organics<br/>Logos
   photos:
     - KinuaLogo2Wide_SM.jpg
     - KinuaLogo1_SM.jpg
 
-- name: 'Mujeres: Cambia Print Design'
+- name: Mujeres Cambia Print Design
   type: photography graphic-design
   cover: Mujeres_Cambia_Brochure.gif
+  color: green
   headline: MC<br/>Print<br/>Design
   photos:
     - MCPostcard1.png
@@ -107,6 +181,7 @@
 - name: All Newton Music School
   type: photography
   cover: All_Newton_Music_Portrait.gif
+  color: green
   headline: All Newton<br/>Music<br/>School
   photos:
     - CharlieBrownGirlSinging_SM.jpg
@@ -119,26 +194,29 @@
 - name: Peace Corps Game
   type: graphic-design
   cover: Ecuador_Game_Cards.gif
+  color: orange
   headline: Peace Corps<br/>Ecuador<br/>Boardgame
   photos:
     - PC_EcuadorCardsWeb.jpg
     - PeaceCorpsGameBoardSM.png
 
-- name: Video
-  type: video
-  url: //player.vimeo.com/video/106988574
-
 - name: Celebrate Ecaudor Poster
   type: photography graphic-design
-  cover: Mujeres_Cambia_Brochure.gif
+  cover: Ecuador_Color_Collage.gif
+  color: blue
   headline: Celebrate<br/>Ecuador<br/>Poster
   photos:
     - Ecuador_Color_Collage.png
     - EcuadorPosterMockUp.jpg
 
+- name: Video
+  type: video
+  url: //player.vimeo.com/video/69414940
+
 - name: Travels with Charlie
   type: photography
   cover: ManyFacesCharlieALT_SM.jpg
+  color: red
   headline: Travels<br/>in<br/>Charlie
   photos:
     - ManyFacesCharlieALT_SM.jpg
@@ -151,6 +229,7 @@
 - name: 'Peace Corps Ominbus 107 T-shirt'
   type: graphic-design
   cover: Peace_Corps_Shirt_SQ.gif
+  color: yellow
   headline: Peace Corps<br/>Omnibus 107<br/>T-shirt
   photos:
     - PeaceCorpsTShirtFront.png
@@ -158,23 +237,23 @@
     - Peace_Corps_Shirt.png
 
 
-- name: Video
-  type: video
-  url: //player.vimeo.com/video/84488843
-
 - name: New Baby Pring Graphics
   type: graphic-design
   cover: Baby_Shower_Invite.gif
+  color: green
   headline: New Baby<br/>Print<br/>Graphics
   photos:
     - BrooklynAnnouncementWeb.png
     - BalloonInviteMockUpPurple.jpg
     - BrookPosterMockUp.jpg
     - BalloonInvitePhoto_SM.jpg
+    - BabyWeeks13-15.gif
+    - BabyWeeks10-12.gif
 
 - name: Art & Design Center Logo
   type:  graphic-design
   cover: CAD_Sticker.gif
+  color: orange
   headline:  Art & Design<br/>Center Logo
   photos:
     - CAD-70s-sticker.png
@@ -184,6 +263,7 @@
 - name: Selected Ecuador Moments
   type: photography
   cover: Ecuador_Truck.gif
+  color: green
   headline: Selected <br/>Ecuador<br/>Moments
   photos:
     - HikeTumbacoWSLarge_SM.jpg
@@ -193,13 +273,10 @@
     - MuseoProhibido_SM.jpg
     - CheTruck_SM.jpg
 
-- name: Video
-  type: video
-  url: //player.vimeo.com/video/69414940
-
 - name: The Nature Conservancy Presentations
   type: graphic-design
   cover: TNC_Slide.gif
+  color: blue
   headline: The Nature<br/>Conservancy<br/>Presentations
   photos:
     - TNC_FondosAgua.png
@@ -212,6 +289,7 @@
 - name: No Botar Basura Campaign
   type:  graphic-design
   cover: No_Botar_Sticker.gif
+  color: yellow
   headline: No Botar<br/>Basura<br/>Campagin
   photos:
     - NoBotarCampaign1.jpg

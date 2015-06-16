@@ -27,7 +27,7 @@ logo: "../assets/images/MCC_logo_Orange_Blue.png"
       .art.video
         %iframe{:allowfullscreen => "", :frameborder => "0", :height => "234", :mozallowfullscreen => "", :src => "#{album.url}", :webkitallowfullscreen => "", :width => "281"}
     - else
-      .art.red{class: "#{album.type}", data: {collection: album.photos.join(',')}}
+      .art.red{class: "#{album.type} #{album.color}", data: {collection: album.photos.join(',')}}
         = image_tag("#{album.cover}", class: "album-cover", alt: "#{album.name}")
         %p.album-caption= album.headline
 

@@ -15,10 +15,17 @@ priority: "1"
 
 %section#projects
   %h2.sub-heading Projects
+
   .project-group
-    %a.project.project-mujeres-cambia(href='/mujeres-cambia')
-    %a.project.project-why-art-matters(href='/why-art-matters')
-    %a.project.project-peace-corps(href='/peace-corps')
+    = link_to '/mujeres-cambia', class: 'featured-project green' do
+      = image_tag 'FeaturedMujeresCambia.jpg'
+      %p.project-overlay Mujeres: Cambia
+    = link_to '/why-art-matters', class: 'featured-project yellow'do
+      = image_tag 'FeaturedWhyArts.jpg'
+      %p.project-overlay Why Art Matters
+    = link_to '/peace-corps', class: 'featured-project orange'do
+      = image_tag 'FeaturedPeaceCorps.jpg'
+      %p.project-overlay Peace Corps
 
 %span.spacer-yellow
 

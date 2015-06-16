@@ -40,7 +40,7 @@
 .blog-title {
   position: absolute;
   color: white;
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: bold;
   text-transform: uppercase;
   opacity: 0;
@@ -50,39 +50,52 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); /* IE 9 */
   -webkit-transform: translate(-50%, -50%);/* Safari */
+  @media only screen and (min-width:40.063em) {
+    font-size: 2em;
+  }
 }
 
 //Project Section
 
 .project {
-  @extend .small-12, .medium-4;
   display: block;
   width:324px;
   height:216px;
   margin: 20px auto;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 2em;
+  @media only screen and (min-width:40.063em) {
+    font-size: 1.1em;
+  }
+}
+
+.featured-project {
+  position: relative;
+  width: 80%;
+  height: auto;
+  float: none;
   img {
-    padding: 15px;
+    width: 100%;
   }
-}
-
-.project-mujeres-cambia {
-  background: url(/assets/images/FeaturedHoverMujeresCambiaNEW.jpg) bottom;
-  &:hover {
-  background-position: 0 0;
-  }
-}
-
-.project-why-art-matters {
-  background: url(/assets/images/FeaturedHoverWhyArtsNEW.jpg) bottom;
-  &:hover {
-  background-position: 0 0;
-  }
-}
-
-.project-peace-corps {
-  background: url(/assets/images/FeaturedHoverPeaceCorpsNEW.jpg) bottom;
-  &:hover {
-  background-position: 0 0;
+  @media only screen and (min-width:40.063em) {
+    width: 33.3%;
+    float: left;
+    img:hover {
+      opacity: 0.1;
+    }
   }
 }
 

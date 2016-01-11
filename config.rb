@@ -2,6 +2,7 @@ require "extensions/views"
 require 'pry'
 require 'dotenv'
 require 'builder'
+require 'middleman-react'
 
 Dotenv.load
 
@@ -15,9 +16,15 @@ compass_config do |config|
   config.output_style = :compact
 end
 
+activate :react do |config|
+  config.harmony = true
+  config.strip_types = true
+end
+
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
+  sprockets.append_path File.dirname(::React::Source.bundled_path_for('react.js'))
 end
 
 set :relative_links, true
@@ -26,6 +33,7 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 set :layout, 'layouts/application'
+
 
 configure :development do
  activate :livereload

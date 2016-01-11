@@ -108,6 +108,10 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-react (0.13.3)
+      execjs
+      middleman-core (>= 3.0)
+      react-source (~> 0.13.3)
     middleman-s3_sync (3.0.46)
       ansi (~> 1.5.0)
       fog-aws (>= 0.1.1)
@@ -155,6 +159,7 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    react-source (0.13.3)
     ruby-progressbar (1.7.5)
     sass (3.4.14)
     slop (3.6.0)
@@ -193,6 +198,7 @@ DEPENDENCIES
   middleman
   middleman-deploy
   middleman-livereload
+  middleman-react
   middleman-s3_sync
   neat
   pry

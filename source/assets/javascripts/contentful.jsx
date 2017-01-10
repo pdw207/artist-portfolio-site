@@ -48,7 +48,6 @@ var BlogList = React.createClass({
 
 var blogListSelector = document.getElementById('blog-list');
 if (blogListSelector) {React.render( React.createElement(BlogList, {limit: 10}), blogListSelector)};
-
 var blogHighlighSelector = document.getElementById('highlight-blog-post');
 if (blogHighlighSelector) {React.render( React.createElement(BlogList, {limit: 1}), blogHighlighSelector)};
 

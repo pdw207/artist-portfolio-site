@@ -7,12 +7,34 @@
 .sub-title {
   text-align: center;
 }
+#sa-partners {
+  margin-top: 0;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#sa-videos, #sa-videos-heading {
+  display: none;
+}
+
+#marketing-materials, #sa-videos-heading {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#student-artwork {
+  margin-top: 0;
+  padding-bottom: 1em;
+}
 
 .portfolio-story {
   @extend .small-10, .small-centered, .medium-8;
   margin: auto;
   padding: $section-spacing-mobile 0;
   text-align: justify;
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .portfolio-sample  {

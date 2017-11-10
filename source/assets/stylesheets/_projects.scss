@@ -15,6 +15,10 @@
 
 #sa-videos, #sa-videos-heading {
   display: none;
+  iframe {
+    background: black;
+    border: 1px black solid;
+  }
 }
 
 #marketing-materials, #sa-videos-heading {
